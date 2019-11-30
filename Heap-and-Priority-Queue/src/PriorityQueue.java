@@ -32,6 +32,6 @@ public class PriorityQueue<E extends Comparable<E>> implements Queue<E> {
 
     @Override
     public E getFront() {
-        return maxHeap.findMax();
+        return maxHeap.findMax()            ;
     }
 }
